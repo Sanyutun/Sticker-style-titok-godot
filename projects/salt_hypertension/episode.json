@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "project_name": "Salt and Blood Pressure",
+  "brand_name": "BodyFrame",
+  "topic": "How Excess Salt Contributes to Hypertension",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration_seconds": 10.0,
+  "background_color": "#E9EEF2",
+  "canvas": {
+    "width": 6000,
+    "height": 3000
+  },
+  "palette": {
+    "primary": "#334B60",
+    "secondary": "#F6F3EC",
+    "accent": "#FF5A36",
+    "blood": "#C84C4C",
+    "text": "#263746",
+    "muted": "#7A8C99",
+    "water": "#7FB9D8",
+    "paper": "#FFFFFF"
+  },
+  "style": {
+    "preset_name": "Bold Outline Editorial Explainer",
+    "sticker_outline_px": 12,
+    "sticker_outline_color": "#FFFFFF",
+    "shadow_enabled": true,
+    "shadow_blur_px": 14,
+    "shadow_offset_x": 0,
+    "shadow_offset_y": 12,
+    "shadow_color": "#263746",
+    "shadow_alpha": 0.17,
+    "font_regular": "res://resources/fonts/NotoSans-Regular.ttf",
+    "font_bold": "res://resources/fonts/NotoSans-Bold.ttf",
+    "font_myanmar": "res://resources/fonts/NotoSansMyanmar-Regular.ttf",
+    "font_cjk": "",
+    "safe_margin_px": 72,
+    "motion_blur": false,
+    "motion_blur_samples": 3,
+    "motion_blur_shutter": 0.5
+  },
+  "camera": {
+    "mode": "keyframed",
+    "default_easing": "cubic_in_out"
+  },
+  "audio": {
+    "sample_rate": 48000,
+    "integrated_loudness_lufs": -14,
+    "true_peak_limit_dbtp": -1
+  },
+  "export": {
+    "video_codec": "libx264",
+    "pixel_format": "yuv420p",
+    "crf": 18,
+    "preset": "medium",
+    "audio_codec": "aac",
+    "audio_bitrate_kbps": 192,
+    "video_path": "res://output/video.mp4",
+    "frames_dir": "res://output/frames"
+  },
+  "localization": {
+    "default_language": "en",
+    "narration": {
+      "en": "Too much sodium can make your body hold water. That can raise blood pressure. Over time, it can contribute to hypertension. Cutting back helps.",
+      "my": ""
+    },
+    "notes": {
+      "en": "Synthetic scratch narration guide (espeak-ng). Replace with a recorded voice before publication.",
+      "my": "Burmese translation pending clinical and linguistic review. No unreviewed Burmese copy is included."
+    }
+  },
+  "assets": [
+    {
+      "name": "Salt shaker cutout",
+      "path": "assets/salt_shaker.png",
+      "source": "Original SVG drawn for this project",
+      "creator": "BodyFrame Motion Studio",
+      "license": "Project-owned (CC0)",
+      "attribution": "None required",
+      "modifications": "Rendered to transparent PNG"
+    },
+    {
+      "name": "Water droplet cutout",
+      "path": "assets/water_droplet.png",
+      "source": "Original SVG drawn for this project",
+      "creator": "BodyFrame Motion Studio",
+      "license": "Project-owned (CC0)",
+      "attribution": "None required",
+      "modifications": "Rendered to transparent PNG"
+    },
+    {
+      "name": "Salt pile cutout",
+      "path": "assets/salt_pile.png",
+      "source": "Original SVG drawn for this project",
+      "creator": "BodyFrame Motion Studio",
+      "license": "Project-owned (CC0)",
+      "attribution": "None required",
+      "modifications": "Rendered to transparent PNG"
+    }
+  ]
+}

@@ -1,28 +1,50 @@
 ; Engine configuration file.
-; It's best edited using the editor UI and not directly,
-; since the parameters that go here are not all obvious.
-;
-; Format:
-;   [section] ; section goes between []
-;   param=value ; assign values to parameters
-
+; BodyFrame Motion Studio — Godot 4 project
 config_version=5
 
 [application]
 
-config/name="Sticker style"
-config/features=PackedStringArray("4.7", "Forward Plus")
+config/name="BodyFrame Motion Studio"
+config/description="Reusable editorial motion-design studio for health explainer videos."
+run/main_scene="res://scenes/editor/main_editor.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [display]
 
+window/size/viewport_width=1600
+window/size/viewport_height=960
+window/size/window_width_override=1600
+window/size/window_height_override=960
+window/size/resizable=true
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
+window/handheld/orientation=1
 
-[physics]
+[filesystem]
 
-3d/physics_engine="Jolt Physics"
+import/blender/enabled=false
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=false
 
 [rendering]
 
-rendering_device/driver.windows="d3d12"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+environment/defaults/default_clear_color=Color(0.07, 0.08, 0.095, 1)
+anti_aliasing/quality/msaa_2d=2
+
+[audio]
+
+driver/enable_input=false
+
+[editor]
+
+version_control/plugin_name=""
+
+[debug]
+
+settings/stdout/verbose_stdout=false

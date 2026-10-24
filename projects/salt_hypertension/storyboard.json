@@ -1,0 +1,4198 @@
+{
+  "schema_version": 1,
+  "canvas_note": "6000×3000 logical composition. The 1920×1080 camera samples this world.",
+  "camera": {
+    "position": [
+      1250,
+      1520
+    ],
+    "zoom": 1.06,
+    "rotation": 0
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "name": "Hook",
+      "start": 0.0,
+      "end": 1.45,
+      "purpose": "Immediately establish salt as the subject; first frame is never empty.",
+      "camera_target": [
+        1250,
+        1520
+      ],
+      "narration": "en",
+      "cues": [
+        {
+          "time": 0.12,
+          "label": "Salt pour",
+          "type": "sfx"
+        },
+        {
+          "time": 0.55,
+          "label": "UI tick",
+          "type": "sfx"
+        }
+      ]
+    },
+    {
+      "id": "sodium_water",
+      "name": "Sodium & water",
+      "start": 1.45,
+      "end": 4.3,
+      "purpose": "Explain water retention with a simplified sodium/fluid diagram.",
+      "camera_target": [
+        2650,
+        1490
+      ],
+      "narration": "en",
+      "cues": [
+        {
+          "time": 1.35,
+          "label": "Camera whoosh",
+          "type": "sfx"
+        },
+        {
+          "time": 2.6,
+          "label": "Water drip",
+          "type": "sfx"
+        },
+        {
+          "time": 2.95,
+          "label": "Narration 2",
+          "type": "narration"
+        }
+      ]
+    },
+    {
+      "id": "blood_volume",
+      "name": "Blood volume",
+      "start": 4.3,
+      "end": 4.95,
+      "purpose": "Connect fluid balance to blood volume and pressure using a vessel diagram.",
+      "camera_target": [
+        4320,
+        1540
+      ],
+      "narration": "en",
+      "cues": [
+        {
+          "time": 4.05,
+          "label": "Camera exit",
+          "type": "sfx"
+        },
+        {
+          "time": 4.28,
+          "label": "Riser",
+          "type": "sfx"
+        },
+        {
+          "time": 4.7,
+          "label": "Narration 3",
+          "type": "narration"
+        }
+      ]
+    },
+    {
+      "id": "hero",
+      "name": "Hero pressure moment",
+      "start": 4.95,
+      "end": 7.25,
+      "purpose": "Largest composition: vessel cross-section and pressure indicator.",
+      "camera_target": [
+        4700,
+        1470
+      ],
+      "narration": "en",
+      "cues": [
+        {
+          "time": 4.72,
+          "label": "Gauge accent",
+          "type": "sfx"
+        }
+      ]
+    },
+    {
+      "id": "practical",
+      "name": "Practical message",
+      "start": 7.25,
+      "end": 8.2,
+      "purpose": "Turn explanation into a simple, responsible action.",
+      "camera_target": [
+        4880,
+        1770
+      ],
+      "narration": "en",
+      "cues": [
+        {
+          "time": 7.2,
+          "label": "Practical transition",
+          "type": "sfx"
+        },
+        {
+          "time": 7.45,
+          "label": "Narration 4",
+          "type": "narration"
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "name": "End frame",
+      "start": 8.2,
+      "end": 10.0,
+      "purpose": "Typography-led closing card with a 1.2s hold and micro-motion.",
+      "camera_target": [
+        4980,
+        2230
+      ],
+      "narration": "en",
+      "cues": [
+        {
+          "time": 8.3,
+          "label": "End transition",
+          "type": "sfx"
+        },
+        {
+          "time": 8.58,
+          "label": "Stamp",
+          "type": "sfx"
+        },
+        {
+          "time": 8.82,
+          "label": "Final accent",
+          "type": "sfx"
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "id": "bg_01",
+      "type": "text",
+      "name": "Scene mark 01",
+      "scene": "hook",
+      "x": 820,
+      "y": 1940,
+      "width": 900,
+      "height": 500,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 0.055,
+      "z": -20,
+      "locked": false,
+      "hidden": false,
+      "text": "01",
+      "font_size": 420,
+      "font_weight": "bold",
+      "color": "#334B60",
+      "align": "center"
+    },
+    {
+      "id": "shaker",
+      "type": "sticker",
+      "name": "Salt shaker cutout",
+      "scene": "hook",
+      "x": 1420,
+      "y": 1550,
+      "width": 560,
+      "height": 808,
+      "rotation": -6,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 20,
+      "locked": false,
+      "hidden": false,
+      "asset": "assets/salt_shaker.png",
+      "outline_width": 12
+    },
+    {
+      "id": "plate",
+      "type": "shape",
+      "name": "Plate",
+      "scene": "hook",
+      "x": 1560,
+      "y": 1930,
+      "width": 620,
+      "height": 140,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 0.9,
+      "z": 5,
+      "locked": false,
+      "hidden": false,
+      "shape": "ellipse",
+      "fill": "#F6F3EC",
+      "border_color": "#FFFFFF",
+      "border_width": 6,
+      "shadow": true
+    },
+    {
+      "id": "grain_1",
+      "type": "shape",
+      "name": "Salt grain",
+      "scene": "hook",
+      "x": 1310,
+      "y": 1200,
+      "width": 26,
+      "height": 26,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 0,
+      "z": 25,
+      "locked": false,
+      "hidden": false,
+      "shape": "polygon",
+      "points": [
+        [
+          0,
+          -0.5
+        ],
+        [
+          0.5,
+          0
+        ],
+        [
+          0,
+          0.5
+        ],
+        [
+          -0.5,
+          0
+        ]
+      ],
+      "fill": "#FFFFFF",
+      "border_color": "#C9C3B6",
+      "border_width": 1.5,
+      "shadow": true
+    },
+    {
+      "id": "grain_2",
+      "type": "shape",
+      "name": "Salt grain",
+      "scene": "hook",
+      "x": 1350,
+      "y": 1190,
+      "width": 26,
+      "height": 26,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 0,
+      "z": 25,
+      "locked": false,
+      "hidden": false,
+      "shape": "polygon",
+      "points": [
+        [
+          0,
+          -0.5
+        ],
+        [
+          0.5,
+          0
+        ],
+        [
+          0,
+          0.5
+        ],
+        [
+          -0.5,
+          0
+        ]
+      ],
+      "fill": "#FFFFFF",
+      "border_color": "#C9C3B6",
+      "border_width": 1.5,
+      "shadow": true
+    },
+    {
+      "id": "grain_3",
+      "type": "shape",
+      "name": "Salt grain",
+      "scene": "hook",
+      "x": 1270,
+      "y": 1215,
+      "width": 26,
+      "height": 26,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 0,
+      "z": 25,
+      "locked": false,
+      "hidden": false,
+      "shape": "polygon",
+      "points": [
+        [
+          0,
+          -0.5
+        ],
+        [
+          0.5,
+          0
+        ],
+        [
+          0,
+          0.5
+        ],
+        [
+          -0.5,
+          0
+        ]
+      ],
+      "fill": "#FFFFFF",
+      "border_color": "#C9C3B6",
+      "border_width": 1.5,
+      "shadow": true
+    },
+    {
+      "id": "grain_4",
+      "type": "shape",
+      "name": "Salt grain",
+      "scene": "hook",
+      "x": 1390,
+      "y": 1220,
+      "width": 26,
+      "height": 26,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 0,
+      "z": 25,
+      "locked": false,
+      "hidden": false,
+      "shape": "polygon",
+      "points": [
+        [
+          0,
+          -0.5
+        ],
+        [
+          0.5,
+          0
+        ],
+        [
+          0,
+          0.5
+        ],
+        [
+          -0.5,
+          0
+        ]
+      ],
+      "fill": "#FFFFFF",
+      "border_color": "#C9C3B6",
+      "border_width": 1.5,
+      "shadow": true
+    },
+    {
+      "id": "hook_text",
+      "type": "text",
+      "name": "Hook headline",
+      "scene": "hook",
+      "x": 810,
+      "y": 1268,
+      "width": 620,
+      "height": 500,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 30,
+      "locked": false,
+      "hidden": false,
+      "text": "TOO\nMUCH\nSALT?",
+      "font_size": 130,
+      "font_weight": "bold",
+      "color": "#263746",
+      "align": "left",
+      "valign": "center",
+      "line_spacing": -18
+    },
+    {
+      "id": "hook_rule",
+      "type": "shape",
+      "name": "Accent rule",
+      "scene": "hook",
+      "x": 850,
+      "y": 1548,
+      "width": 430,
+      "height": 10,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 29,
+      "locked": false,
+      "hidden": false,
+      "shape": "line",
+      "fill": "#FF5A36",
+      "border_width": 9
+    },
+    {
+      "id": "hook_tag",
+      "type": "text",
+      "name": "Hook kicker",
+      "scene": "hook",
+      "x": 800,
+      "y": 1602,
+      "width": 640,
+      "height": 54,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 30,
+      "locked": false,
+      "hidden": false,
+      "text": "SODIUM & BLOOD PRESSURE",
+      "font_size": 27,
+      "font_weight": "bold",
+      "color": "#7A8C99",
+      "align": "left"
+    },
+    {
+      "id": "bg_02",
+      "type": "text",
+      "name": "Scene mark 02",
+      "scene": "sodium_water",
+      "x": 2360,
+      "y": 1990,
+      "width": 900,
+      "height": 500,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 0.05,
+      "z": -20,
+      "locked": false,
+      "hidden": false,
+      "text": "02",
+      "font_size": 420,
+      "font_weight": "bold",
+      "color": "#334B60",
+      "align": "center"
+    },
+    {
+      "id": "sodium_ghost",
+      "type": "text",
+      "name": "Na+ ghost",
+      "scene": "sodium_water",
+      "x": 3320,
+      "y": 1050,
+      "width": 660,
+      "height": 400,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 0.07,
+      "z": -18,
+      "locked": false,
+      "hidden": false,
+      "text": "Na+",
+      "font_size": 300,
+      "font_weight": "bold",
+      "color": "#334B60",
+      "align": "center"
+    },
+    {
+      "id": "sodium_title",
+      "type": "text",
+      "name": "Sodium title",
+      "scene": "sodium_water",
+      "x": 2650,
+      "y": 1058,
+      "width": 1500,
+      "height": 132,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 30,
+      "locked": false,
+      "hidden": false,
+      "text": "SODIUM PULLS WATER",
+      "font_size": 84,
+      "font_weight": "bold",
+      "color": "#263746",
+      "align": "center"
+    },
+    {
+      "id": "sodium_rule",
+      "type": "shape",
+      "name": "Title rule",
+      "scene": "sodium_water",
+      "x": 2650,
+      "y": 1142,
+      "width": 360,
+      "height": 8,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 29,
+      "locked": false,
+      "hidden": false,
+      "shape": "line",
+      "fill": "#FF5A36",
+      "border_width": 7
+    },
+    {
+      "id": "sodium_sub",
+      "type": "text",
+      "name": "Sodium subtitle",
+      "scene": "sodium_water",
+      "x": 2650,
+      "y": 1198,
+      "width": 1180,
+      "height": 56,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 30,
+      "locked": false,
+      "hidden": false,
+      "text": "For many people, the body holds on to fluid.",
+      "font_size": 34,
+      "font_weight": "regular",
+      "color": "#334B60",
+      "align": "center"
+    },
+    {
+      "id": "body",
+      "type": "character",
+      "name": "Simplified body",
+      "scene": "sodium_water",
+      "x": 2360,
+      "y": 1590,
+      "width": 370,
+      "height": 610,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 12,
+      "locked": false,
+      "hidden": false,
+      "mode": "torso",
+      "water_level": 0.0,
+      "sodium_count": 9,
+      "label": "SIMPLIFIED BODY",
+      "label_size": 19
+    },
+    {
+      "id": "drop_1",
+      "type": "sticker",
+      "name": "Water droplet cutout",
+      "scene": "sodium_water",
+      "x": 2760,
+      "y": 1450,
+      "width": 150,
+      "height": 175,
+      "rotation": -8,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 22,
+      "locked": false,
+      "hidden": false,
+      "asset": "assets/water_droplet.png",
+      "outline_width": 8
+    },
+    {
+      "id": "drop_2",
+      "type": "sticker",
+      "name": "Water droplet cutout",
+      "scene": "sodium_water",
+      "x": 2890,
+      "y": 1580,
+      "width": 196,
+      "height": 229,
+      "rotation": 7,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 22,
+      "locked": false,
+      "hidden": false,
+      "asset": "assets/water_droplet.png",
+      "outline_width": 8
+    },
+    {
+      "id": "drop_3",
+      "type": "sticker",
+      "name": "Water droplet cutout",
+      "scene": "sodium_water",
+      "x": 2720,
+      "y": 1660,
+      "width": 126,
+      "height": 147,
+      "rotation": -3,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 22,
+      "locked": false,
+      "hidden": false,
+      "asset": "assets/water_droplet.png",
+      "outline_width": 8
+    },
+    {
+      "id": "na_1",
+      "type": "text",
+      "name": "Sodium ion badge",
+      "scene": "sodium_water",
+      "x": 3000,
+      "y": 1290,
+      "width": 124,
+      "height": 124,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 24,
+      "locked": false,
+      "hidden": false,
+      "text": "Na+",
+      "font_size": 42,
+      "font_weight": "bold",
+      "color": "#FFFFFF",
+      "align": "center",
+      "valign": "center",
+      "bg_style": "circle",
+      "bg_color": "#FF5A36",
+      "bg_border": "#FFFFFF",
+      "bg_border_width": 3
+    },
+    {
+      "id": "na_2",
+      "type": "text",
+      "name": "Sodium ion badge",
+      "scene": "sodium_water",
+      "x": 3150,
+      "y": 1430,
+      "width": 124,
+      "height": 124,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 24,
+      "locked": false,
+      "hidden": false,
+      "text": "Na+",
+      "font_size": 42,
+      "font_weight": "bold",
+      "color": "#FFFFFF",
+      "align": "center",
+      "valign": "center",
+      "bg_style": "circle",
+      "bg_color": "#FF5A36",
+      "bg_border": "#FFFFFF",
+      "bg_border_width": 3
+    },
+    {
+      "id": "na_3",
+      "type": "text",
+      "name": "Sodium ion badge",
+      "scene": "sodium_water",
+      "x": 3010,
+      "y": 1580,
+      "width": 124,
+      "height": 124,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 24,
+      "locked": false,
+      "hidden": false,
+      "text": "Na+",
+      "font_size": 42,
+      "font_weight": "bold",
+      "color": "#FFFFFF",
+      "align": "center",
+      "valign": "center",
+      "bg_style": "circle",
+      "bg_color": "#FF5A36",
+      "bg_border": "#FFFFFF",
+      "bg_border_width": 3
+    },
+    {
+      "id": "fluid_arrow",
+      "type": "arrow",
+      "name": "Water annotation",
+      "scene": "sodium_water",
+      "x": 2850,
+      "y": 1800,
+      "width": 470,
+      "height": 250,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 25,
+      "locked": false,
+      "hidden": false,
+      "from": [
+        0.38,
+        0.3
+      ],
+      "to": [
+        -0.18,
+        -0.3
+      ],
+      "bend": -0.1,
+      "label": "FLUID RETAINED",
+      "label_offset": [
+        0.05,
+        0.47
+      ],
+      "label_size": 20,
+      "label_width": 300,
+      "label_height": 42,
+      "stroke": 4,
+      "head_size": 18,
+      "hand_drawn": true,
+      "color": "#FF5A36"
+    },
+    {
+      "id": "fluid_chart",
+      "type": "chart",
+      "name": "Fluid balance chart",
+      "scene": "sodium_water",
+      "x": 3320,
+      "y": 1750,
+      "width": 500,
+      "height": 360,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 18,
+      "locked": false,
+      "hidden": false,
+      "chart_type": "bar",
+      "title": "FLUID BALANCE",
+      "values": [
+        [
+          "usual",
+          62
+        ],
+        [
+          "excess sodium",
+          78
+        ]
+      ],
+      "max_value": 100,
+      "show_values": false,
+      "axes": true,
+      "caption": "ILLUSTRATIVE RELATIONSHIP — NOT A MEASUREMENT",
+      "values_colors": true,
+      "label_size": 21,
+      "title_size": 24,
+      "caption_size": 15
+    },
+    {
+      "id": "sodium_note",
+      "type": "text",
+      "name": "Responsible note",
+      "scene": "sodium_water",
+      "x": 2650,
+      "y": 2000,
+      "width": 1500,
+      "height": 46,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 30,
+      "locked": false,
+      "hidden": false,
+      "text": "Illustrative. Individual responses vary.",
+      "font_size": 24,
+      "font_weight": "regular",
+      "color": "#7A8C99",
+      "align": "center"
+    },
+    {
+      "id": "bg_03",
+      "type": "text",
+      "name": "Scene mark 03",
+      "scene": "blood_volume",
+      "x": 4060,
+      "y": 1040,
+      "width": 720,
+      "height": 500,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 0.05,
+      "z": -20,
+      "locked": false,
+      "hidden": false,
+      "text": "03",
+      "font_size": 420,
+      "font_weight": "bold",
+      "color": "#334B60",
+      "align": "center"
+    },
+    {
+      "id": "vessel",
+      "type": "blood_vessel",
+      "name": "Blood vessel diagram",
+      "scene": "blood_volume",
+      "x": 4320,
+      "y": 1540,
+      "width": 1030,
+      "height": 500,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 12,
+      "locked": false,
+      "hidden": false,
+      "flow": 0,
+      "bulge": 0,
+      "flow_speed": 0.085,
+      "cell_count": 20
+    },
+    {
+      "id": "vessel_label",
+      "type": "text",
+      "name": "Volume label",
+      "scene": "blood_volume",
+      "x": 4340,
+      "y": 1810,
+      "width": 620,
+      "height": 54,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 30,
+      "locked": false,
+      "hidden": false,
+      "text": "BLOOD VOLUME",
+      "font_size": 28,
+      "font_weight": "bold",
+      "color": "#334B60",
+      "align": "left"
+    },
+    {
+      "id": "gauge",
+      "type": "pressure_gauge",
+      "name": "Pressure gauge",
+      "scene": "hero",
+      "x": 5080,
+      "y": 1360,
+      "width": 520,
+      "height": 560,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 20,
+      "locked": false,
+      "hidden": false,
+      "value": 0.12,
+      "title": "",
+      "caption": "ILLUSTRATIVE INDICATOR",
+      "card": true
+    },
+    {
+      "id": "gauge_note",
+      "type": "text",
+      "name": "Gauge disclaimer",
+      "scene": "hero",
+      "x": 5080,
+      "y": 1678,
+      "width": 520,
+      "height": 52,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 30,
+      "locked": false,
+      "hidden": false,
+      "text": "Simplified diagram — not a measurement.",
+      "font_size": 20,
+      "font_weight": "regular",
+      "color": "#7A8C99",
+      "align": "center"
+    },
+    {
+      "id": "hero_title",
+      "type": "text",
+      "name": "Hero pressure title",
+      "scene": "hero",
+      "x": 4450,
+      "y": 1112,
+      "width": 700,
+      "height": 120,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 30,
+      "locked": false,
+      "hidden": false,
+      "text": "PRESSURE",
+      "font_size": 88,
+      "font_weight": "bold",
+      "color": "#263746",
+      "align": "left"
+    },
+    {
+      "id": "hero_rule",
+      "type": "shape",
+      "name": "Hero accent rule",
+      "scene": "hero",
+      "x": 4480,
+      "y": 1188,
+      "width": 250,
+      "height": 8,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 29,
+      "locked": false,
+      "hidden": false,
+      "shape": "line",
+      "fill": "#FF5A36",
+      "border_width": 7
+    },
+    {
+      "id": "practical_text",
+      "type": "text",
+      "name": "Practical message",
+      "scene": "practical",
+      "x": 4700,
+      "y": 1935,
+      "width": 1200,
+      "height": 130,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 30,
+      "locked": false,
+      "hidden": false,
+      "text": "CUT BACK ON EXCESS SODIUM.",
+      "font_size": 62,
+      "font_weight": "bold",
+      "color": "#263746",
+      "align": "left"
+    },
+    {
+      "id": "practical_rule",
+      "type": "shape",
+      "name": "Practical accent rule",
+      "scene": "practical",
+      "x": 4720,
+      "y": 2015,
+      "width": 470,
+      "height": 8,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 29,
+      "locked": false,
+      "hidden": false,
+      "shape": "line",
+      "fill": "#FF5A36",
+      "border_width": 7
+    },
+    {
+      "id": "practical_shaker",
+      "type": "sticker",
+      "name": "Shaker exit animation",
+      "scene": "practical",
+      "x": 5470,
+      "y": 1815,
+      "width": 290,
+      "height": 419,
+      "rotation": 8,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 22,
+      "locked": false,
+      "hidden": false,
+      "asset": "assets/salt_shaker.png",
+      "outline_width": 9
+    },
+    {
+      "id": "bg_04",
+      "type": "text",
+      "name": "Scene mark 04",
+      "scene": "end",
+      "x": 5400,
+      "y": 2690,
+      "width": 620,
+      "height": 500,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 0.055,
+      "z": -20,
+      "locked": false,
+      "hidden": false,
+      "text": "04",
+      "font_size": 380,
+      "font_weight": "bold",
+      "color": "#334B60",
+      "align": "center"
+    },
+    {
+      "id": "end_block",
+      "type": "shape",
+      "name": "End card",
+      "scene": "end",
+      "x": 5000,
+      "y": 2220,
+      "width": 1320,
+      "height": 760,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 10,
+      "locked": false,
+      "hidden": false,
+      "shape": "rounded_rect",
+      "radius": 26,
+      "fill": "#F6F3EC",
+      "border_color": "#FFFFFF",
+      "border_width": 2,
+      "shadow": true
+    },
+    {
+      "id": "end_brand",
+      "type": "text",
+      "name": "Brand name",
+      "scene": "end",
+      "x": 4750,
+      "y": 1932,
+      "width": 720,
+      "height": 34,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 30,
+      "locked": false,
+      "hidden": false,
+      "text": "{{brand_name}}",
+      "uppercase": true,
+      "font_size": 24,
+      "font_weight": "bold",
+      "color": "#FF5A36",
+      "align": "left"
+    },
+    {
+      "id": "end_rule",
+      "type": "shape",
+      "name": "End brand rule",
+      "scene": "end",
+      "x": 4750,
+      "y": 1980,
+      "width": 126,
+      "height": 7,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 29,
+      "locked": false,
+      "hidden": false,
+      "shape": "line",
+      "fill": "#334B60",
+      "border_width": 6
+    },
+    {
+      "id": "end_title1",
+      "type": "text",
+      "name": "End headline",
+      "scene": "end",
+      "x": 4950,
+      "y": 2104,
+      "width": 1080,
+      "height": 142,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 30,
+      "locked": false,
+      "hidden": false,
+      "text": "LESS EXCESS SALT.",
+      "font_size": 100,
+      "font_weight": "bold",
+      "color": "#263746",
+      "align": "left"
+    },
+    {
+      "id": "end_title2",
+      "type": "text",
+      "name": "End support line",
+      "scene": "end",
+      "x": 4950,
+      "y": 2294,
+      "width": 1080,
+      "height": 76,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 30,
+      "locked": false,
+      "hidden": false,
+      "text": "HELP MANAGE BLOOD PRESSURE.",
+      "font_size": 54,
+      "font_weight": "bold",
+      "color": "#334B60",
+      "align": "left"
+    },
+    {
+      "id": "end_note",
+      "type": "text",
+      "name": "End disclaimer",
+      "scene": "end",
+      "x": 4950,
+      "y": 2466,
+      "width": 1080,
+      "height": 60,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 30,
+      "locked": false,
+      "hidden": false,
+      "text": "Dietary change supports — and does not replace — prescribed care.",
+      "font_size": 20,
+      "font_weight": "regular",
+      "color": "#7A8C99",
+      "align": "left"
+    },
+    {
+      "id": "end_badge",
+      "type": "text",
+      "name": "End accent badge",
+      "scene": "end",
+      "x": 5440,
+      "y": 2180,
+      "width": 152,
+      "height": 152,
+      "rotation": 0,
+      "scale": [
+        1,
+        1
+      ],
+      "opacity": 1,
+      "z": 25,
+      "locked": false,
+      "hidden": false,
+      "text": "Na+",
+      "font_size": 44,
+      "font_weight": "bold",
+      "color": "#FFFFFF",
+      "align": "center",
+      "valign": "center",
+      "bg_style": "circle",
+      "bg_color": "#FF5A36",
+      "bg_border": "#FFFFFF",
+      "bg_border_width": 3
+    }
+  ],
+  "tracks": [
+    {
+      "element_id": "shaker",
+      "property": "position",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": [
+            1420,
+            1550
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 0.55,
+          "value": [
+            1420,
+            1536
+          ],
+          "easing": "cubic_out"
+        },
+        {
+          "time": 1.8,
+          "value": [
+            1400,
+            1524
+          ],
+          "easing": "sine_in_out"
+        },
+        {
+          "time": 2.3,
+          "value": [
+            1380,
+            1516
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "shaker",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": -6,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 0.55,
+          "value": -8,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 1.8,
+          "value": -4.5,
+          "easing": "sine_in_out"
+        },
+        {
+          "time": 2.3,
+          "value": -11,
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "shaker",
+      "property": "scale",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": [
+            1.02,
+            1.02
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 0.55,
+          "value": [
+            1,
+            1
+          ],
+          "easing": "cubic_out"
+        },
+        {
+          "time": 2.0,
+          "value": [
+            1.035,
+            1.035
+          ],
+          "easing": "sine_in_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "shaker",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 1.55,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 1.78,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "plate",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 0.9,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 1.32,
+          "value": 0.9,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 1.55,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "grain_1",
+      "property": "position",
+      "keys": [
+        {
+          "time": 0.14,
+          "value": [
+            1310,
+            1200
+          ],
+          "easing": "cubic_in"
+        },
+        {
+          "time": 0.42,
+          "value": [
+            1480,
+            1810
+          ],
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "grain_1",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 0.14,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 0.42,
+          "value": 120,
+          "easing": "linear"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "grain_1",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 0.14,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 0.17,
+          "value": 1,
+          "easing": "linear"
+        },
+        {
+          "time": 0.36,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 0.43,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "grain_2",
+      "property": "position",
+      "keys": [
+        {
+          "time": 0.24,
+          "value": [
+            1350,
+            1190
+          ],
+          "easing": "cubic_in"
+        },
+        {
+          "time": 0.52,
+          "value": [
+            1540,
+            1840
+          ],
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "grain_2",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 0.24,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 0.52,
+          "value": 120,
+          "easing": "linear"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "grain_2",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 0.24,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 0.27,
+          "value": 1,
+          "easing": "linear"
+        },
+        {
+          "time": 0.46,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 0.53,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "grain_3",
+      "property": "position",
+      "keys": [
+        {
+          "time": 0.33,
+          "value": [
+            1270,
+            1215
+          ],
+          "easing": "cubic_in"
+        },
+        {
+          "time": 0.61,
+          "value": [
+            1430,
+            1770
+          ],
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "grain_3",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 0.33,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 0.61,
+          "value": 120,
+          "easing": "linear"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "grain_3",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 0.33,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 0.36,
+          "value": 1,
+          "easing": "linear"
+        },
+        {
+          "time": 0.55,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 0.62,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "grain_4",
+      "property": "position",
+      "keys": [
+        {
+          "time": 0.42,
+          "value": [
+            1390,
+            1220
+          ],
+          "easing": "cubic_in"
+        },
+        {
+          "time": 0.7,
+          "value": [
+            1600,
+            1800
+          ],
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "grain_4",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 0.42,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 0.7,
+          "value": 120,
+          "easing": "linear"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "grain_4",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 0.42,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 0.45,
+          "value": 1,
+          "easing": "linear"
+        },
+        {
+          "time": 0.64,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 0.71,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "hook_text",
+      "property": "position",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": [
+            810,
+            1302
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 0.5,
+          "value": [
+            810,
+            1268
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "hook_text",
+      "property": "scale",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": [
+            0.94,
+            0.94
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 0.48,
+          "value": [
+            1,
+            1
+          ],
+          "easing": "back_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "hook_text",
+      "property": "reveal",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 1.0,
+          "easing": "cubic_in_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "hook_text",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 1.3,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 1.52,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "hook_rule",
+      "property": "progress",
+      "keys": [
+        {
+          "time": 0.14,
+          "value": 0,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 0.6,
+          "value": 1,
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "hook_rule",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 1.3,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 1.52,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "hook_tag",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 0.06,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 0.3,
+          "value": 1,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 1.3,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 1.52,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "hook_tag",
+      "property": "position",
+      "keys": [
+        {
+          "time": 0.06,
+          "value": [
+            800,
+            1620
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 0.4,
+          "value": [
+            800,
+            1602
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "sodium_title",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 1.45,
+          "value": 0.0,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 1.7,
+          "value": 1.0,
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "sodium_title",
+      "property": "position",
+      "keys": [
+        {
+          "time": 1.45,
+          "value": [
+            2650,
+            1018
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 1.85,
+          "value": [
+            2650,
+            1058
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "sodium_title",
+      "property": "reveal",
+      "keys": [
+        {
+          "time": 1.5,
+          "value": 0.0,
+          "easing": "smoothstep"
+        },
+        {
+          "time": 1.92,
+          "value": 1.0,
+          "easing": "smoothstep"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "sodium_rule",
+      "property": "progress",
+      "keys": [
+        {
+          "time": 1.62,
+          "value": 0,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 1.98,
+          "value": 1,
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "sodium_sub",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 1.7,
+          "value": 0.0,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 1.98,
+          "value": 1.0,
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "sodium_sub",
+      "property": "position",
+      "keys": [
+        {
+          "time": 1.7,
+          "value": [
+            2650,
+            1214
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 2.04,
+          "value": [
+            2650,
+            1198
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "body",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 1.6,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 1.88,
+          "value": 1,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 4.18,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 4.42,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "body",
+      "property": "position",
+      "keys": [
+        {
+          "time": 1.6,
+          "value": [
+            2360,
+            1620
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 1.96,
+          "value": [
+            2360,
+            1590
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "body",
+      "property": "water_level",
+      "keys": [
+        {
+          "time": 2.5,
+          "value": 0.0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 3.7,
+          "value": 0.62,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 4.1,
+          "value": 0.66,
+          "easing": "sine_in_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "drop_1",
+      "property": "scale",
+      "keys": [
+        {
+          "time": 2.56,
+          "value": [
+            0.001,
+            0.001
+          ],
+          "easing": "cubic_out"
+        },
+        {
+          "time": 2.74,
+          "value": [
+            1.12,
+            1.12
+          ],
+          "easing": "back_out"
+        },
+        {
+          "time": 2.88,
+          "value": [
+            1,
+            1
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "drop_1",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 2.56,
+          "value": -18,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 2.91,
+          "value": -8,
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "drop_1",
+      "property": "position",
+      "keys": [
+        {
+          "time": 2.56,
+          "value": [
+            2760,
+            1468
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 2.91,
+          "value": [
+            2760,
+            1450
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "drop_1",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 2.56,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 2.74,
+          "value": 1,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 4.18,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 4.42,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "drop_2",
+      "property": "scale",
+      "keys": [
+        {
+          "time": 2.74,
+          "value": [
+            0.001,
+            0.001
+          ],
+          "easing": "cubic_out"
+        },
+        {
+          "time": 2.92,
+          "value": [
+            1.12,
+            1.12
+          ],
+          "easing": "back_out"
+        },
+        {
+          "time": 3.06,
+          "value": [
+            1,
+            1
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "drop_2",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 2.74,
+          "value": -3,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 3.09,
+          "value": 7,
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "drop_2",
+      "property": "position",
+      "keys": [
+        {
+          "time": 2.74,
+          "value": [
+            2890,
+            1598
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 3.09,
+          "value": [
+            2890,
+            1580
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "drop_2",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 2.74,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 2.92,
+          "value": 1,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 4.18,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 4.42,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "drop_3",
+      "property": "scale",
+      "keys": [
+        {
+          "time": 2.92,
+          "value": [
+            0.001,
+            0.001
+          ],
+          "easing": "cubic_out"
+        },
+        {
+          "time": 3.1,
+          "value": [
+            1.12,
+            1.12
+          ],
+          "easing": "back_out"
+        },
+        {
+          "time": 3.24,
+          "value": [
+            1,
+            1
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "drop_3",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 2.92,
+          "value": -13,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 3.27,
+          "value": -3,
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "drop_3",
+      "property": "position",
+      "keys": [
+        {
+          "time": 2.92,
+          "value": [
+            2720,
+            1678
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 3.27,
+          "value": [
+            2720,
+            1660
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "drop_3",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 2.92,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 3.1,
+          "value": 1,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 4.18,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 4.42,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "na_1",
+      "property": "scale",
+      "keys": [
+        {
+          "time": 2.36,
+          "value": [
+            0.001,
+            0.001
+          ],
+          "easing": "cubic_out"
+        },
+        {
+          "time": 2.54,
+          "value": [
+            1.14,
+            1.14
+          ],
+          "easing": "back_out"
+        },
+        {
+          "time": 2.68,
+          "value": [
+            1,
+            1
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "na_1",
+      "property": "position",
+      "keys": [
+        {
+          "time": 2.36,
+          "value": [
+            3000,
+            1264
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 2.7,
+          "value": [
+            3000,
+            1290
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "na_1",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 2.36,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 2.52,
+          "value": 1,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 4.18,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 4.42,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "na_2",
+      "property": "scale",
+      "keys": [
+        {
+          "time": 2.52,
+          "value": [
+            0.001,
+            0.001
+          ],
+          "easing": "cubic_out"
+        },
+        {
+          "time": 2.7,
+          "value": [
+            1.14,
+            1.14
+          ],
+          "easing": "back_out"
+        },
+        {
+          "time": 2.84,
+          "value": [
+            1,
+            1
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "na_2",
+      "property": "position",
+      "keys": [
+        {
+          "time": 2.52,
+          "value": [
+            3150,
+            1404
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 2.86,
+          "value": [
+            3150,
+            1430
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "na_2",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 2.52,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 2.68,
+          "value": 1,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 4.18,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 4.42,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "na_3",
+      "property": "scale",
+      "keys": [
+        {
+          "time": 2.68,
+          "value": [
+            0.001,
+            0.001
+          ],
+          "easing": "cubic_out"
+        },
+        {
+          "time": 2.86,
+          "value": [
+            1.14,
+            1.14
+          ],
+          "easing": "back_out"
+        },
+        {
+          "time": 3.0,
+          "value": [
+            1,
+            1
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "na_3",
+      "property": "position",
+      "keys": [
+        {
+          "time": 2.68,
+          "value": [
+            3010,
+            1554
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 3.02,
+          "value": [
+            3010,
+            1580
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "na_3",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 2.68,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 2.84,
+          "value": 1,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 4.18,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 4.42,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "fluid_arrow",
+      "property": "progress",
+      "keys": [
+        {
+          "time": 3.35,
+          "value": 0,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 3.8,
+          "value": 1,
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "fluid_arrow",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 3.3,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 3.45,
+          "value": 1,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 4.18,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 4.42,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "fluid_chart",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 2.9,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 3.2,
+          "value": 1,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 4.18,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 4.42,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "fluid_chart",
+      "property": "progress",
+      "keys": [
+        {
+          "time": 3.05,
+          "value": 0,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 3.8,
+          "value": 1,
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "sodium_note",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 2.75,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 3.05,
+          "value": 0.95,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 4.18,
+          "value": 0.95,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 4.42,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "vessel",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 4.02,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 4.32,
+          "value": 1,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 8.0,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 8.24,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "vessel",
+      "property": "flow",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 0,
+          "easing": "linear"
+        },
+        {
+          "time": 10.0,
+          "value": 36,
+          "easing": "linear"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "vessel",
+      "property": "bulge",
+      "keys": [
+        {
+          "time": 4.68,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 6.2,
+          "value": 0.22,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 8.4,
+          "value": 0.18,
+          "easing": "sine_in_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "vessel_label",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 4.82,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 5.08,
+          "value": 1,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 7.32,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 7.52,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "vessel_label",
+      "property": "position",
+      "keys": [
+        {
+          "time": 4.82,
+          "value": [
+            4340,
+            1824
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 5.12,
+          "value": [
+            4340,
+            1810
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "gauge",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 4.72,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 4.98,
+          "value": 1,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 7.28,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 7.52,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "gauge",
+      "property": "value",
+      "keys": [
+        {
+          "time": 4.75,
+          "value": 0.12,
+          "easing": "quint_in_out"
+        },
+        {
+          "time": 6.3,
+          "value": 0.78,
+          "easing": "quint_in_out"
+        },
+        {
+          "time": 8.0,
+          "value": 0.78,
+          "easing": "sine_in_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "gauge",
+      "property": "position",
+      "keys": [
+        {
+          "time": 4.72,
+          "value": [
+            5130,
+            1410
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 6.3,
+          "value": [
+            5080,
+            1360
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "gauge",
+      "property": "scale",
+      "keys": [
+        {
+          "time": 4.72,
+          "value": [
+            0.94,
+            0.94
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 6.3,
+          "value": [
+            1,
+            1
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "gauge_note",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 4.92,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 5.16,
+          "value": 1,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 7.28,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 7.52,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "hero_title",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 4.9,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 5.15,
+          "value": 1,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 6.85,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 7.05,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "hero_title",
+      "property": "position",
+      "keys": [
+        {
+          "time": 4.9,
+          "value": [
+            4450,
+            1150
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 5.32,
+          "value": [
+            4450,
+            1112
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "hero_title",
+      "property": "reveal",
+      "keys": [
+        {
+          "time": 4.93,
+          "value": 0,
+          "easing": "smoothstep"
+        },
+        {
+          "time": 5.3,
+          "value": 1,
+          "easing": "smoothstep"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "hero_rule",
+      "property": "progress",
+      "keys": [
+        {
+          "time": 4.98,
+          "value": 0,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 5.36,
+          "value": 1,
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "hero_rule",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 4.96,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 5.16,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 6.85,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 7.05,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "practical_text",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 7.32,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 7.62,
+          "value": 1,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 8.16,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 8.3,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "practical_text",
+      "property": "position",
+      "keys": [
+        {
+          "time": 7.32,
+          "value": [
+            4700,
+            1970
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 7.72,
+          "value": [
+            4700,
+            1935
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "practical_rule",
+      "property": "progress",
+      "keys": [
+        {
+          "time": 7.35,
+          "value": 0,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 7.82,
+          "value": 1,
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "practical_rule",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 7.33,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 7.55,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 8.16,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 8.3,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "practical_shaker",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 7.28,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 7.58,
+          "value": 1,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 8.16,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 8.3,
+          "value": 0,
+          "easing": "cubic_in"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "practical_shaker",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 7.28,
+          "value": 20,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 7.72,
+          "value": 5,
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "practical_shaker",
+      "property": "position",
+      "keys": [
+        {
+          "time": 7.28,
+          "value": [
+            5520,
+            1865
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 7.72,
+          "value": [
+            5470,
+            1815
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "practical_shaker",
+      "property": "scale",
+      "keys": [
+        {
+          "time": 7.28,
+          "value": [
+            0.84,
+            0.84
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 7.72,
+          "value": [
+            1,
+            1
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "end_block",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 8.26,
+          "value": 0.0,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 8.5,
+          "value": 1.0,
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "end_block",
+      "property": "position",
+      "keys": [
+        {
+          "time": 8.26,
+          "value": [
+            5000,
+            2280
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 8.72,
+          "value": [
+            5000,
+            2220
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "end_block",
+      "property": "scale",
+      "keys": [
+        {
+          "time": 8.26,
+          "value": [
+            0.965,
+            0.965
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 8.72,
+          "value": [
+            1,
+            1
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "end_brand",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 8.3,
+          "value": 0.0,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 8.44,
+          "value": 1.0,
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "end_brand",
+      "property": "position",
+      "keys": [
+        {
+          "time": 8.3,
+          "value": [
+            4750,
+            1945
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 8.55,
+          "value": [
+            4750,
+            1932
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "end_rule",
+      "property": "progress",
+      "keys": [
+        {
+          "time": 8.34,
+          "value": 0,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 8.64,
+          "value": 1,
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "end_rule",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 8.34,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 8.5,
+          "value": 1,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 9.9,
+          "value": 1,
+          "easing": "cubic_in_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "end_title1",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 8.34,
+          "value": 0.0,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 8.48,
+          "value": 1.0,
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "end_title1",
+      "property": "position",
+      "keys": [
+        {
+          "time": 8.34,
+          "value": [
+            4950,
+            2134
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 8.7,
+          "value": [
+            4950,
+            2104
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "end_title1",
+      "property": "reveal",
+      "keys": [
+        {
+          "time": 8.36,
+          "value": 0,
+          "easing": "smoothstep"
+        },
+        {
+          "time": 8.58,
+          "value": 1,
+          "easing": "smoothstep"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "end_title1",
+      "property": "scale",
+      "keys": [
+        {
+          "time": 9.5,
+          "value": [
+            1,
+            1
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 10.0,
+          "value": [
+            1.004,
+            1.004
+          ],
+          "easing": "sine_in_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "end_title2",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 8.46,
+          "value": 0.0,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 8.6,
+          "value": 1.0,
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "end_title2",
+      "property": "position",
+      "keys": [
+        {
+          "time": 8.46,
+          "value": [
+            4950,
+            2320
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 8.78,
+          "value": [
+            4950,
+            2294
+          ],
+          "easing": "cubic_out"
+        },
+        {
+          "time": 9.6,
+          "value": [
+            4950,
+            2294
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 10.0,
+          "value": [
+            4950,
+            2290
+          ],
+          "easing": "sine_in_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "end_title2",
+      "property": "reveal",
+      "keys": [
+        {
+          "time": 8.48,
+          "value": 0,
+          "easing": "smoothstep"
+        },
+        {
+          "time": 8.7,
+          "value": 1,
+          "easing": "smoothstep"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "end_note",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 8.6,
+          "value": 0.0,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 8.75,
+          "value": 1.0,
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "end_badge",
+      "property": "scale",
+      "keys": [
+        {
+          "time": 8.48,
+          "value": [
+            0.001,
+            0.001
+          ],
+          "easing": "cubic_out"
+        },
+        {
+          "time": 8.66,
+          "value": [
+            1.12,
+            1.12
+          ],
+          "easing": "back_out"
+        },
+        {
+          "time": 8.8,
+          "value": [
+            1,
+            1
+          ],
+          "easing": "cubic_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "end_badge",
+      "property": "opacity",
+      "keys": [
+        {
+          "time": 8.48,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 8.62,
+          "value": 1,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 9.9,
+          "value": 1,
+          "easing": "cubic_in_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "end_badge",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 8.48,
+          "value": -8,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 8.81,
+          "value": 0,
+          "easing": "back_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "@camera",
+      "property": "position",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": [
+            1250,
+            1520
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 0.55,
+          "value": [
+            1280,
+            1530
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 1.15,
+          "value": [
+            1380,
+            1510
+          ],
+          "easing": "sine_in_out"
+        },
+        {
+          "time": 2.05,
+          "value": [
+            2600,
+            1490
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 2.28,
+          "value": [
+            2650,
+            1490
+          ],
+          "easing": "smoothstep"
+        },
+        {
+          "time": 3.5,
+          "value": [
+            2680,
+            1510
+          ],
+          "easing": "smoothstep"
+        },
+        {
+          "time": 4.05,
+          "value": [
+            3350,
+            1580
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 4.55,
+          "value": [
+            4240,
+            1520
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 4.8,
+          "value": [
+            4380,
+            1510
+          ],
+          "easing": "cubic_out"
+        },
+        {
+          "time": 5.3,
+          "value": [
+            4450,
+            1495
+          ],
+          "easing": "smoothstep"
+        },
+        {
+          "time": 6.55,
+          "value": [
+            4680,
+            1460
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 7.15,
+          "value": [
+            4720,
+            1470
+          ],
+          "easing": "smoothstep"
+        },
+        {
+          "time": 7.55,
+          "value": [
+            4800,
+            1610
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 7.95,
+          "value": [
+            4900,
+            1810
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 8.75,
+          "value": [
+            4930,
+            2200
+          ],
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 10.0,
+          "value": [
+            5020,
+            2250
+          ],
+          "easing": "sine_in_out"
+        }
+      ],
+      "kind": "vector"
+    },
+    {
+      "element_id": "@camera",
+      "property": "zoom",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 1.06,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 0.55,
+          "value": 1.12,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 1.15,
+          "value": 1.08,
+          "easing": "sine_in_out"
+        },
+        {
+          "time": 2.05,
+          "value": 0.96,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 2.28,
+          "value": 0.95,
+          "easing": "smoothstep"
+        },
+        {
+          "time": 3.5,
+          "value": 1.0,
+          "easing": "smoothstep"
+        },
+        {
+          "time": 4.05,
+          "value": 0.86,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 4.55,
+          "value": 1.0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 4.8,
+          "value": 0.98,
+          "easing": "cubic_out"
+        },
+        {
+          "time": 5.3,
+          "value": 1.06,
+          "easing": "smoothstep"
+        },
+        {
+          "time": 6.55,
+          "value": 1.27,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 7.15,
+          "value": 1.28,
+          "easing": "smoothstep"
+        },
+        {
+          "time": 7.55,
+          "value": 1.14,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 7.95,
+          "value": 1.03,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 8.75,
+          "value": 0.95,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 10.0,
+          "value": 0.98,
+          "easing": "sine_in_out"
+        }
+      ],
+      "kind": "number"
+    },
+    {
+      "element_id": "@camera",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 0,
+          "easing": "cubic_in_out"
+        },
+        {
+          "time": 2.28,
+          "value": -0.7,
+          "easing": "sine_in_out"
+        },
+        {
+          "time": 3.5,
+          "value": 0.4,
+          "easing": "sine_in_out"
+        },
+        {
+          "time": 4.65,
+          "value": -0.5,
+          "easing": "sine_in_out"
+        },
+        {
+          "time": 6.55,
+          "value": 0.3,
+          "easing": "sine_in_out"
+        },
+        {
+          "time": 7.95,
+          "value": 0.0,
+          "easing": "sine_in_out"
+        },
+        {
+          "time": 8.75,
+          "value": 0,
+          "easing": "sine_in_out"
+        }
+      ],
+      "kind": "number"
+    }
+  ],
+  "audio": {
+    "tracks": [
+      {
+        "id": "music",
+        "name": "Music bed — 'Quiet Pressure'",
+        "type": "music",
+        "file": "audio/music_bed.wav",
+        "start": 0.0,
+        "duration": 10.2,
+        "gain": 0.55,
+        "fade_in": 0.35,
+        "fade_out": 0.8,
+        "mute": false,
+        "solo": false,
+        "cues": [
+          {
+            "time": 4.55,
+            "label": "Musical lift"
+          },
+          {
+            "time": 8.8,
+            "label": "Final accent"
+          }
+        ]
+      },
+      {
+        "id": "narration_1",
+        "name": "Narration 01 — water",
+        "type": "narration",
+        "file": "audio/narration_01.wav",
+        "start": 0.35,
+        "duration": 2.53,
+        "gain": 1.0,
+        "fade_in": 0.05,
+        "fade_out": 0.12,
+        "mute": false,
+        "solo": false,
+        "cues": [
+          {
+            "time": 0.35,
+            "label": "Too much sodium..."
+          }
+        ]
+      },
+      {
+        "id": "narration_2",
+        "name": "Narration 02 — pressure",
+        "type": "narration",
+        "file": "audio/narration_02.wav",
+        "start": 2.95,
+        "duration": 1.798,
+        "gain": 1.0,
+        "fade_in": 0.05,
+        "fade_out": 0.15,
+        "mute": false,
+        "solo": false,
+        "cues": [
+          {
+            "time": 2.95,
+            "label": "That can raise..."
+          }
+        ]
+      },
+      {
+        "id": "narration_3",
+        "name": "Narration 03 — hypertension",
+        "type": "narration",
+        "file": "audio/narration_03.wav",
+        "start": 4.7,
+        "duration": 2.733,
+        "gain": 1.0,
+        "fade_in": 0.05,
+        "fade_out": 0.18,
+        "mute": false,
+        "solo": false,
+        "cues": [
+          {
+            "time": 4.7,
+            "label": "Over time..."
+          }
+        ]
+      },
+      {
+        "id": "narration_4",
+        "name": "Narration 04 — cutting back",
+        "type": "narration",
+        "file": "audio/narration_04.wav",
+        "start": 7.45,
+        "duration": 1.332,
+        "gain": 1.0,
+        "fade_in": 0.05,
+        "fade_out": 0.15,
+        "mute": false,
+        "solo": false,
+        "cues": [
+          {
+            "time": 7.45,
+            "label": "Cutting back helps."
+          }
+        ]
+      },
+      {
+        "id": "sfx_pour",
+        "name": "SFX — Salt pour",
+        "type": "sfx",
+        "file": "audio/sfx_salt_pour.wav",
+        "start": 0.1,
+        "duration": 0.95,
+        "gain": 0.55,
+        "fade_in": 0.01,
+        "fade_out": 0.15,
+        "mute": false,
+        "solo": false,
+        "cues": []
+      },
+      {
+        "id": "sfx_tick_1",
+        "name": "SFX — UI tick 1",
+        "type": "sfx",
+        "file": "audio/sfx_tick.wav",
+        "start": 0.55,
+        "duration": 0.12,
+        "gain": 0.35,
+        "fade_in": 0.0,
+        "fade_out": 0.02,
+        "mute": false,
+        "solo": false,
+        "cues": []
+      },
+      {
+        "id": "sfx_whoosh_1",
+        "name": "SFX — Camera whoosh",
+        "type": "sfx",
+        "file": "audio/sfx_whoosh_in.wav",
+        "start": 1.35,
+        "duration": 0.9,
+        "gain": 0.38,
+        "fade_in": 0.05,
+        "fade_out": 0.1,
+        "mute": false,
+        "solo": false,
+        "cues": []
+      },
+      {
+        "id": "sfx_drip_1",
+        "name": "SFX — Water drip 1",
+        "type": "sfx",
+        "file": "audio/sfx_drip.wav",
+        "start": 2.62,
+        "duration": 0.8,
+        "gain": 0.28,
+        "fade_in": 0.0,
+        "fade_out": 0.05,
+        "mute": false,
+        "solo": false,
+        "cues": []
+      },
+      {
+        "id": "sfx_drip_2",
+        "name": "SFX — Water drip 2",
+        "type": "sfx",
+        "file": "audio/sfx_drip.wav",
+        "start": 3.18,
+        "duration": 0.8,
+        "gain": 0.2,
+        "fade_in": 0.0,
+        "fade_out": 0.05,
+        "mute": false,
+        "solo": false,
+        "cues": []
+      },
+      {
+        "id": "sfx_whoosh_2",
+        "name": "SFX — Camera exit",
+        "type": "sfx",
+        "file": "audio/sfx_whoosh_out.wav",
+        "start": 4.05,
+        "duration": 0.8,
+        "gain": 0.32,
+        "fade_in": 0.02,
+        "fade_out": 0.08,
+        "mute": false,
+        "solo": false,
+        "cues": []
+      },
+      {
+        "id": "sfx_riser",
+        "name": "SFX — Hero riser",
+        "type": "sfx",
+        "file": "audio/sfx_riser.wav",
+        "start": 4.28,
+        "duration": 1.5,
+        "gain": 0.3,
+        "fade_in": 0.1,
+        "fade_out": 0.25,
+        "mute": false,
+        "solo": false,
+        "cues": []
+      },
+      {
+        "id": "sfx_accent_1",
+        "name": "SFX — Hero accent",
+        "type": "sfx",
+        "file": "audio/sfx_accent.wav",
+        "start": 4.72,
+        "duration": 1.8,
+        "gain": 0.38,
+        "fade_in": 0.0,
+        "fade_out": 0.4,
+        "mute": false,
+        "solo": false,
+        "cues": []
+      },
+      {
+        "id": "sfx_whoosh_3",
+        "name": "SFX — Practical transition",
+        "type": "sfx",
+        "file": "audio/sfx_whoosh_out.wav",
+        "start": 7.2,
+        "duration": 0.8,
+        "gain": 0.28,
+        "fade_in": 0.02,
+        "fade_out": 0.1,
+        "mute": false,
+        "solo": false,
+        "cues": []
+      },
+      {
+        "id": "sfx_whoosh_4",
+        "name": "SFX — End transition",
+        "type": "sfx",
+        "file": "audio/sfx_whoosh_in.wav",
+        "start": 8.3,
+        "duration": 0.9,
+        "gain": 0.3,
+        "fade_in": 0.03,
+        "fade_out": 0.12,
+        "mute": false,
+        "solo": false,
+        "cues": []
+      },
+      {
+        "id": "sfx_stamp",
+        "name": "SFX — End stamp",
+        "type": "sfx",
+        "file": "audio/sfx_stamp.wav",
+        "start": 8.58,
+        "duration": 0.7,
+        "gain": 0.45,
+        "fade_in": 0.0,
+        "fade_out": 0.15,
+        "mute": false,
+        "solo": false,
+        "cues": []
+      },
+      {
+        "id": "sfx_accent_2",
+        "name": "SFX — Final accent",
+        "type": "sfx",
+        "file": "audio/sfx_accent.wav",
+        "start": 8.82,
+        "duration": 1.18,
+        "gain": 0.28,
+        "fade_in": 0.0,
+        "fade_out": 0.5,
+        "mute": false,
+        "solo": false,
+        "cues": []
+      }
+    ]
+  },
+  "subtitles": {
+    "en": [
+      {
+        "start": 0.35,
+        "end": 2.85,
+        "text": "Too much sodium can make your body hold water."
+      },
+      {
+        "start": 2.95,
+        "end": 4.72,
+        "text": "That can raise blood pressure."
+      },
+      {
+        "start": 4.8,
+        "end": 7.43,
+        "text": "Over time, it can contribute to hypertension."
+      },
+      {
+        "start": 7.45,
+        "end": 8.78,
+        "text": "Cutting back helps."
+      }
+    ],
+    "my": [],
+    "my_status": "needs_localization"
+  },
+  "burn_subtitles": true,
+  "camera_path_notes": "Slow lateral pan across the world; settle before each information reveal. No cuts."
+}

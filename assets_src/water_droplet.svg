@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="700" viewBox="0 0 600 700">
+<defs>
+  <linearGradient id="water" x1="0.2" y1="0" x2="0.8" y2="1">
+    <stop offset="0" stop-color="#cfe8f6"/>
+    <stop offset="0.42" stop-color="#7fb9d8"/>
+    <stop offset="1" stop-color="#3d7fa6"/>
+  </linearGradient>
+  <radialGradient id="hi" cx="0.34" cy="0.28" r="0.36">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<path d="M300 60 C300 60 96 342 96 460 C96 566 186 646 300 646 C414 646 504 566 504 460 C504 342 300 60 300 60 Z" fill="url(#water)"/>
+<ellipse cx="232" cy="414" rx="92" ry="116" fill="url(#hi)"/>
+<path d="M180 486 Q202 558 274 576" stroke="#ffffff" stroke-width="14" fill="none" opacity="0.45" stroke-linecap="round"/>
+</svg>

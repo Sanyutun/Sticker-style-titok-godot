@@ -1,0 +1,30 @@
+[
+  {
+    "file": "narration_01.wav",
+    "text": "Too much sodium can make your body hold water.",
+    "start": 0.35,
+    "duration": 2.5298958333333332,
+    "tempo": 1.1626161575741407
+  },
+  {
+    "file": "narration_02.wav",
+    "text": "That can raise blood pressure.",
+    "start": 2.95,
+    "duration": 1.7983333333333333,
+    "tempo": 1.0
+  },
+  {
+    "file": "narration_03.wav",
+    "text": "Over time, it can contribute to hypertension.",
+    "start": 4.7,
+    "duration": 2.7334375,
+    "tempo": 1.1962399505256647
+  },
+  {
+    "file": "narration_04.wav",
+    "text": "Cutting back helps.",
+    "start": 7.45,
+    "duration": 1.3315833333333333,
+    "tempo": 1.183572688334593
+  }
+]
